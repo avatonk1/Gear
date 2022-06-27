@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "-----------------------------------------------------------------------------"
-curl -s https://raw.githubusercontent.com/razumv/helpers/main/doubletop.sh | bash
-echo "-----------------------------------------------------------------------------"
+echo "Установочка началась.Привет DBS DAO"
 if [ ! $NODENAME_GEAR ]; then
 	read -p "Введите ваше имя ноды(придумайте, без спецсимволов - только буквы и цифры): " NODENAME_GEAR
 fi
