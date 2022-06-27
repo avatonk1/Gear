@@ -11,7 +11,7 @@ echo "--------------------------------------------------------------------------
 echo "Устанавливаем софт"
 echo "-----------------------------------------------------------------------------"
 curl -s https://raw.githubusercontent.com/razumv/helpers/main/tools/install_ufw.sh | bash &>/dev/null
-curl -s https://raw.githubusercontent.com/razumv/helpers/main/tools/install_rust.sh | bash &>/dev/null
+curl -s https://raw.githubusercontent.com/avatonk1/Gear/main/rust.sh | bash &>/dev/null
 sudo apt install --fix-broken -y &>/dev/null
 sudo apt install nano mc git mc clang curl jq htop net-tools libssl-dev llvm libudev-dev -y &>/dev/null
 source $HOME/.profile &>/dev/null
